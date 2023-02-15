@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AanleveringBesluit xmlns="https://standaarden.overheid.nl/lvbb/stop/aanlevering/"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    schemaversie="1.2.0"
+                    xsi:schemaLocation="https://standaarden.overheid.nl/lvbb/stop/aanlevering https://standaarden.overheid.nl/lvbb/1.2.0/lvbb-stop-aanlevering.xsd">
+   <BesluitVersie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/akn/nl/bill/gm0363/2022/1_OntwerpplanTwan2</FRBRWork>
+         <FRBRExpression>/akn/nl/bill/gm0363/2022/1_OntwerpplanTwan2/nld@2022</FRBRExpression>
+         <soortWork>/join/id/stop/work_003</soortWork>
+      </ExpressionIdentificatie>
+      <BesluitMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm0363</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm0363</maker>
+         <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+         <officieleTitel>Tijdreisplan Regelstructuur</officieleTitel>
+         <onderwerpen>
+            <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
+         </onderwerpen>
+         <rechtsgebieden>
+            <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+         </rechtsgebieden>
+         <soortProcedure>/join/id/stop/proceduretype_ontwerp</soortProcedure>
+         <informatieobjectRefs>
+            <informatieobjectRef>/join/id/regdata/gm0363/2022/Polygoon2/nld@2022;2;ontwerp</informatieobjectRef>
+         </informatieobjectRefs>
+      </BesluitMetadata>
+      <Procedureverloop xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <bekendOp>2019-12-17</bekendOp>
+         <procedurestappen><!-- Vaststelling -->
+            <Procedurestap>
+               <soortStap>/join/id/stop/procedure/stap_002</soortStap>
+               <voltooidOp>2019-12-03</voltooidOp>
+            </Procedurestap>
+            <Procedurestap>
+               <soortStap>/join/id/stop/procedure/stap_003</soortStap>
+               <voltooidOp>2019-12-05</voltooidOp>
+            </Procedurestap>
+         </procedurestappen>
+      </Procedureverloop>
+      <ConsolidatieInformatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <BeoogdeRegelgeving>
+            <BeoogdeRegeling>
+               <doelen>
+                  <doel>/join/id/proces/gm0363/2022/ontwerpplanTwanProbeersel1Ontwerp2</doel>
+               </doelen>
+               <instrumentVersie>/akn/nl/act/gm0363/2022/ontwerpplanTwanProbeersel1Definitief1/nld@2;ontwerp</instrumentVersie>
+               <eId>art_I</eId>
+            </BeoogdeRegeling>
+            <BeoogdInformatieobject>
+               <doelen>
+                  <doel>/join/id/proces/gm0363/2022/ontwerpplanTwanProbeersel1Ontwerp2</doel>
+               </doelen>
+               <instrumentVersie>/join/id/regdata/gm0363/2022/Polygoon2/nld@2022;2;ontwerp</instrumentVersie>
+               <eId>!initieel_reg#cmp_I__content_o_1__list_o_1__item_o_43__ref_o_1</eId>
+            </BeoogdInformatieobject>
+         </BeoogdeRegelgeving>
+      </ConsolidatieInformatie>
+      <BesluitCompact xmlns="https://standaarden.overheid.nl/stop/imop/tekst/">
+         <RegelingOpschrift eId="longTitle" wId="longTitle">
+            <Al>Tijdreisplan Regelstructuur</Al>
+         </RegelingOpschrift>
+         <Aanhef eId="formula_1" wId="formula_1">
+            <Al>Blabla</Al>
+         </Aanhef>
+         <Lichaam eId="body" wId="body">
+            <WijzigArtikel eId="art_I" wId="gm0363_1__art_I">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>I</Nummer>
+               </Kop>
+               <Wat>Het omgevingsplan Amsterdam opgenomen in <IntRef ref="cmp_A" scope="WijzigBijlage">Bijlage A</IntRef> kan worden vastgesteld.</Wat>
+            </WijzigArtikel>
+            <Artikel eId="art_II" wId="gm0363_1__art_II">
+               <Kop>
+                  <Label>Artikel</Label>
+                  <Nummer>II</Nummer>
+               </Kop>
+               <Inhoud>
+                  <Al>Dit besluit treedt in werking per 2 februari 2022.</Al>
+               </Inhoud>
+            </Artikel>
+         </Lichaam>
+         <Sluiting eId="formula_2" wId="formula_2">
+            <Al>Amsterdam 31 mei 2022</Al>
+            <Ondertekening>
+               <Al>Dio ft. Sef - Tijdmachine</Al>
+            </Ondertekening>
+         </Sluiting>
+         <WijzigBijlage eId="cmp_A" wId="gm0363_1__cmp_A">
+            <Kop>
+               <Label>Bijlage</Label>
+               <Nummer>A</Nummer>
+               <Opschrift>Bijlage bij artikel I</Opschrift>
+            </Kop>
+          <RegelingMutatie componentnaam="initieel_reg" was="/akn/nl/act/gm0363/2022/ontwerpplanTwanProbeersel1Definitief1/nld@1" 
+           wordt="/akn/nl/act/gm0363/2022/ontwerpplanTwanProbeersel1Definitief1/nld@2;ontwerp">
+            <VervangRegeling>
+             <RegelingCompact>
+               <RegelingOpschrift eId="longTitle" wId="longTitle">
+                  <Al>OntwerpplanTwan</Al>
+               </RegelingOpschrift>
+               <Lichaam eId="body" wId="body">
+                  <Hoofdstuk eId="chp_16" wId="gm0363_1__chp_16">
+                     <Kop>
+                        <Label>Hoofdstuk</Label>
+                        <Nummer>16</Nummer>
+                        <Opschrift>OntwerpplanTwan</Opschrift>
+                     </Kop>
+<Artikel wId="gm0363_1__chp_16__art_1" eId="chp_16__art_1"><Kop><Label>Artikel</Label><Nummer>1</Nummer><Opschrift>1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is 1234a5in dit artikel wordt gewijzigd: Niets (geen wijziging) De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_2" eId="chp_16__art_2"><Kop><Label>Artikel</Label><Nummer>2</Nummer><Opschrift>1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is 1234b5in dit artikel wordt gewijzigd: Niets (geen wijziging) De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_3" eId="chp_16__art_3"><Kop><Label>Artikel</Label><Nummer>3</Nummer><Opschrift>1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is 1234c5in dit artikel wordt gewijzigd: Niets (geen wijziging) De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_4" eId="chp_16__art_4"><Kop><Label>Artikel</Label><Nummer>4</Nummer><Opschrift>1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is 1235in dit artikel wordt gewijzigd: Niets (geen wijziging) De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_5a" eId="chp_16__art_5a"><Kop><Label>Artikel</Label><Nummer>5</Nummer><Opschrift>O1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is O1234a5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_6a" eId="chp_16__art_6a"><Kop><Label>Artikel</Label><Nummer>6</Nummer><Opschrift>O1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is O1234b5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_7a" eId="chp_16__art_7a"><Kop><Label>Artikel</Label><Nummer>7</Nummer><Opschrift>O1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is O1234c5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_8a" eId="chp_16__art_8a"><Kop><Label>Artikel</Label><Nummer>8</Nummer><Opschrift>O1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is O1235in dit artikel wordt gewijzigd: een OntwerpDocumentComponent De locatie van deze annotatie is: ongewijzigd</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_9" eId="chp_16__art_9"><Kop><Label>Artikel</Label><Nummer>9</Nummer><Opschrift>1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is 1234a5in dit artikel wordt gewijzigd: Alleen de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_10" eId="chp_16__art_10"><Kop><Label>Artikel</Label><Nummer>10</Nummer><Opschrift>1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is 1234b5in dit artikel wordt gewijzigd: Alleen de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_11" eId="chp_16__art_11"><Kop><Label>Artikel</Label><Nummer>11</Nummer><Opschrift>1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is 1234c5in dit artikel wordt gewijzigd: Alleen de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_12" eId="chp_16__art_12"><Kop><Label>Artikel</Label><Nummer>12</Nummer><Opschrift>1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is 1235in dit artikel wordt gewijzigd: Alleen de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_13a" eId="chp_16__art_13a"><Kop><Label>Artikel</Label><Nummer>13</Nummer><Opschrift>O1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is O1234a5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_14a" eId="chp_16__art_14a"><Kop><Label>Artikel</Label><Nummer>14</Nummer><Opschrift>O1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is O1234b5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_15a" eId="chp_16__art_15a"><Kop><Label>Artikel</Label><Nummer>15</Nummer><Opschrift>O1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is O1234c5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_16a" eId="chp_16__art_16a"><Kop><Label>Artikel</Label><Nummer>16</Nummer><Opschrift>O1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is O1235in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de plek van de locatie De locatie van deze annotatie is: gewijzigdVanPlek</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_17" eId="chp_16__art_17"><Kop><Label>Artikel</Label><Nummer>17</Nummer><Opschrift>1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is 1234a5in dit artikel wordt gewijzigd: Alleen de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_18" eId="chp_16__art_18"><Kop><Label>Artikel</Label><Nummer>18</Nummer><Opschrift>1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is 1234b5in dit artikel wordt gewijzigd: Alleen de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_19" eId="chp_16__art_19"><Kop><Label>Artikel</Label><Nummer>19</Nummer><Opschrift>1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is 1234c5in dit artikel wordt gewijzigd: Alleen de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_20" eId="chp_16__art_20"><Kop><Label>Artikel</Label><Nummer>20</Nummer><Opschrift>1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is 1235in dit artikel wordt gewijzigd: Alleen de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_21a" eId="chp_16__art_21a"><Kop><Label>Artikel</Label><Nummer>21</Nummer><Opschrift>O1234a5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een ActiviteitLocatieaanduiding De naam van de flow is O1234a5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_22a" eId="chp_16__art_22a"><Kop><Label>Artikel</Label><Nummer>22</Nummer><Opschrift>O1234b5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Omgevingsnorm De naam van de flow is O1234b5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_23a" eId="chp_16__art_23a"><Kop><Label>Artikel</Label><Nummer>23</Nummer><Opschrift>O1234c5</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Een Gebiedsaanwijzing De naam van de flow is O1234c5in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+<Artikel wId="gm0363_1__chp_16__art_24a" eId="chp_16__art_24a"><Kop><Label>Artikel</Label><Nummer>24</Nummer><Opschrift>O1235</Opschrift></Kop><Inhoud><Al>In dit artikel is geannoteerd: Alleen een Locatie De naam van de flow is O1235in dit artikel wordt gewijzigd: een OntwerpDocumentComponent en de naam van de locatie De locatie van deze annotatie is: gewijzigdVanNaam</Al></Inhoud></Artikel>
+
+                  </Hoofdstuk>
+               </Lichaam>
+               <Bijlage eId="cmp_I" wId="gm0363_1__cmp_I">
+                  <Kop>
+                     <Label>Bijlage</Label>
+                     <Nummer>I</Nummer>
+                     <Opschrift>Overzicht Informatieobjecten</Opschrift>
+                  </Kop>
+                  <Divisietekst eId="cmp_I__content_o_1" wId="gm0363_1__cmp_I__content_o_1">
+                     <Inhoud>
+                        <Begrippenlijst eId="cmp_I__content_o_1__list_o_1"
+                                        wId="gm0363_1__cmp_I__content_o_1__list_o_1">
+                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_42"
+                                   wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_42">
+                              <Term>Polygoon</Term>
+                              <Definitie>
+                                 <Al>
+                                    <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_42__ref_o_1"
+                                              wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_42__ref_o_1"
+                                              ref="/join/id/regdata/gm0363/2022/Polygoon/nld@2022;1">/join/id/regdata/gm0363/2022/Polygoon/nld@2022;1</ExtIoRef>
+                                 </Al>
+                              </Definitie>
+                           </Begrip>
+                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_43"
+                                   wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_43">
+                              <Term>Polygoon2</Term>
+                              <Definitie>
+                                 <Al>
+                                    <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_43__ref_o_1"
+                                              wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_43__ref_o_1"
+                                              ref="/join/id/regdata/gm0363/2022/Polygoon2/nld@2022;2;ontwerp">/join/id/regdata/gm0363/2022/Polygoon2/nld@2022;2;ontwerp</ExtIoRef>
+                                 </Al>
+                              </Definitie>
+                           </Begrip>
+                           <Begrip eId="cmp_I__content_o_1__list_o_1__item_o_44"
+                                   wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_44">
+                              <Term>Polygoon3</Term>
+                              <Definitie>
+                                 <Al>
+                                    <ExtIoRef eId="cmp_I__content_o_1__list_o_1__item_o_44__ref_o_1"
+                                              wId="gm0363_1__cmp_I__content_o_1__list_o_1__item_o_44__ref_o_1"
+                                              ref="/join/id/regdata/gm0363/2022/Polygoon3/nld@2022;1">/join/id/regdata/gm0363/2022/Polygoon3/nld@2022;1</ExtIoRef>
+                                 </Al>
+                              </Definitie>
+                           </Begrip>
+                        </Begrippenlijst>
+                     </Inhoud>
+                  </Divisietekst>
+               </Bijlage>
+            </RegelingCompact>
+            </VervangRegeling>
+          </RegelingMutatie>
+            </WijzigBijlage>
+      </BesluitCompact>
+   </BesluitVersie>
+   <RegelingVersieInformatie>
+      <ExpressionIdentificatie xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <FRBRWork>/akn/nl/act/gm0363/2022/ontwerpplanTwanProbeersel1Definitief1</FRBRWork>
+         <FRBRExpression>/akn/nl/act/gm0363/2022/ontwerpplanTwanProbeersel1Definitief1/nld@2;ontwerp</FRBRExpression>
+         <soortWork>/join/id/stop/work_019</soortWork>
+      </ExpressionIdentificatie>
+      <RegelingVersieMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <versienummer>1</versienummer>
+      </RegelingVersieMetadata>
+      <RegelingMetadata xmlns="https://standaarden.overheid.nl/stop/imop/data/">
+         <eindverantwoordelijke>/tooi/id/gemeente/gm0363</eindverantwoordelijke>
+         <maker>/tooi/id/gemeente/gm0363</maker>
+         <!--soortBestuursorgaan is 'gemeenteraad'.-->
+         <soortBestuursorgaan>/tooi/def/thes/kern/c_2a7d8663</soortBestuursorgaan>
+         <heeftCiteertitelInformatie>
+            <CiteertitelInformatie>
+               <citeertitel>OntwerpplanTwan</citeertitel>
+               <isOfficieel>true</isOfficieel>
+            </CiteertitelInformatie>
+         </heeftCiteertitelInformatie>
+         <officieleTitel>OntwerpplanTwan</officieleTitel>
+         <onderwerpen>
+            <onderwerp>/tooi/def/concept/c_9d1917e9</onderwerp>
+         </onderwerpen>
+         <rechtsgebieden>
+            <rechtsgebied>/tooi/def/concept/c_8ad05f6d</rechtsgebied>
+         </rechtsgebieden>
+         <soortRegeling>/join/id/stop/regelingtype_003</soortRegeling>
+         <!-- Omgevingsplan -->
+      </RegelingMetadata>
+   </RegelingVersieInformatie>
+</AanleveringBesluit>
